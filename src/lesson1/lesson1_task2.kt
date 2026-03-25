@@ -1,7 +1,8 @@
+package lesson1
+
 fun main() {
     val applePrice : Double = 70000.0
     val applesAmount : Int = 5
-    var totalPrice = applePrice + applesAmount
-    totalPrice += 5
+    val totalPrice = applePrice + applesAmount
     println(totalPrice)
 }
